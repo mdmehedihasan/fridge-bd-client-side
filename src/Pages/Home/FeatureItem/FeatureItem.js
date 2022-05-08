@@ -5,7 +5,7 @@ import feature1 from "../../../images/feature1.jpg"
 const FeatureItem = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div>
+        <div className='container'>
             <h2 className="heading-title my-5 text-success" id='services'>Featured Item </h2>
             <div className='bg-success w-100 mb-3' style={{ height: '1px' }}></div>
             <Container>

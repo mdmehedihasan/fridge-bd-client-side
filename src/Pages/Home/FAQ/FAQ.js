@@ -3,7 +3,7 @@ import { Accordion } from 'react-bootstrap';
 
 const FAQ = () => {
     return (
-        <div>
+        <div className='container'>
             <h2 className="heading-title my-5 text-success" id='services'>Frequently Asked Question </h2>
             <div className='bg-success w-100 mb-3' style={{ height: '1px' }}></div>
             <Accordion defaultActiveKey="0">
