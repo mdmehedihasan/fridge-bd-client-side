@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2>This is Client side home page</h2>
+      <h2 className='bg-primary'>This is Client side home page</h2>
     </div>
   );
 }
