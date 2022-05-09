@@ -16,7 +16,7 @@ const MainInventory = () => {
 
     return (
         <div>
-            <h3>Welcome to details:{inventory.name}</h3>
+            <h3>This is Your Product:{inventory.name}</h3>
             <div>
                 <Link to="/manageitems">
                     <button className='btn btn-primary'>Manage Item</button>
