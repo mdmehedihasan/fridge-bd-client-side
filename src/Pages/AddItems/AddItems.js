@@ -1,8 +1,12 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const AddItems = () => {
+
+    const notify = () => toast("Wow! Your item has been added");
 
     const { register, handleSubmit } = useForm();
 
@@ -22,6 +26,8 @@ const AddItems = () => {
             })
     }
 
+
+
     return (
         <div className='w-50 mx-auto'>
             <h2>Please add Item</h2>
@@ -32,8 +38,9 @@ const AddItems = () => {
                 <input className='mb-2' placeholder='Price Per Item' type="number" {...register("price")} />
                 <input className='mb-2' placeholder='Quantity' type="number" {...register("quantity")} />
                 <input className='mb-2' placeholder='Photo URL' type="text" {...register("img")} />
-                <input type="submit" value="Add Item" />
+                <input onClick={notify} type="submit" value="Add Item" />
             </form>
+            <ToastContainer />
         </div>
     );
 };
