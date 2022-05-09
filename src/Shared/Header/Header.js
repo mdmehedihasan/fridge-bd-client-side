@@ -36,11 +36,12 @@ const Header = () => {
                         {
                             user ?
                                 <span>
-                                    <button className='btn btn-link text-white text-decoration-none'>Manage Items</button>
 
-                                    <button className='btn btn-link text-white text-decoration-none'>Add Items</button>
+                                    <button className='bg-success border-0'><Nav.Link as={Link} to="/additems">Add Items</Nav.Link></button>
 
-                                    <button className='btn btn-link text-white text-decoration-none'>My Items</button>
+                                    <button className='bg-success border-0'><Nav.Link as={Link} to="/myitems">My Items</Nav.Link></button>
+
+                                    <button className='bg-success border-0'><Nav.Link as={Link} to="/manageitems">Manage Items</Nav.Link></button>
 
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out</button>
                                 </span>
