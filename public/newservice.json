@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Walton 2h2",
+        "Supplier_name": "ZM Mahmud",
+        "price": "30000",
+        "quantity": "1000",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    },
+    {
+        "name": "Walton Gm3",
+        "Supplier_name": "ZM Mahmud",
+        "price": "35000",
+        "quantity": "500",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    },
+    {
+        "name": "Walton Yz9",
+        "Supplier_name": "ZM Mahmud",
+        "price": "60000",
+        "quantity": "300",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    },
+    {
+        "name": "Walton RH1",
+        "Supplier_name": "ZM Mahmud",
+        "price": "80000",
+        "quantity": "2000",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    },
+    {
+        "name": "Walton DDr",
+        "Supplier_name": "ZM Mahmud",
+        "price": "80000",
+        "quantity": "300",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    },
+    {
+        "name": "Walton YY3",
+        "Supplier_name": "ZM Mahmud",
+        "price": "70000",
+        "quantity": "200",
+        "description": "Computer systems vary in power, portability, and performance. When buying a computer, you need to establish your crucial conditions to ensure you make the right choice. Consider whether you most favor power and upgradability or convenience and portability.",
+        "img": "https://i.ibb.co/7ggPb6Y/fridge.jpg"
+    }
+]
