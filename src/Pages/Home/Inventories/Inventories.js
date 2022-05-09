@@ -6,7 +6,7 @@ const Inventories = () => {
 
     const [inventories, setInventories] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/fridgeItem')
+        fetch('https://protected-beach-17122.herokuapp.com/fridgeItem')
             .then(res => res.json())
             .then(data => setInventories(data));
     }, [])
@@ -16,7 +16,7 @@ const Inventories = () => {
             <div className='bg-success w-100' style={{ height: '1px' }}></div>
             <div className="inventories-container">
                 {
-                    inventories.map(inventory => <Inventory
+                    inventories.slice(0, 6).map(inventory => <Inventory
                         key={inventory._id}
                         inventory={inventory}
 

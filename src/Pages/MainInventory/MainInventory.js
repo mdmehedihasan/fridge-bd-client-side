@@ -7,7 +7,7 @@ const MainInventory = () => {
     const [inventory, setInventory] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/fridgeItem/${inventoryId}`;
+        const url = `https://protected-beach-17122.herokuapp.com/fridgeItem/${inventoryId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setInventory(data));
@@ -16,10 +16,17 @@ const MainInventory = () => {
 
     return (
         <div>
-            <h3>This is Your Product:{inventory.name}</h3>
+            <img src={inventory.img} alt="" />
+            <h3>Product Name:{inventory.name}</h3>
+            <p>Supplier Name:{inventory.Supplier_name}</p>
+            <p>Price: {inventory.price}</p>
+            <p>Quantity:{inventory.quantity}</p>
+            <p>{inventory.description}</p>
+
+
             <div>
                 <Link to="/manageitems">
-                    <button className='btn btn-primary'>Manage Item</button>
+                    <button className='btn btn-success'>DELIVERED</button>
                 </Link>
             </div>
 
