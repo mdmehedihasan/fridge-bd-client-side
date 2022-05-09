@@ -9,7 +9,7 @@ const Inventory = ({ inventory }) => {
         navigate(`/inventory/${id}`);
     }
     return (
-        <div className='service py-5'>
+        <div className=' py-5'>
             <img className='my-3 border border rounded' src={img} alt="" />
             <h2>{name}</h2>
             <p>{description}</p>

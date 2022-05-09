@@ -49,7 +49,7 @@ function App() {
         }></Route>
 
 
-
+        {/* 404 page */}
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
