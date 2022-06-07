@@ -1,4 +1,4 @@
-# Project For Fridg-Bd WareHouse 
+# Project For Fridge-Bd WareHouse 
 
 https://fridge-bd.web.app/ [Live Site Link](https://fridge-bd.web.app/).
 
@@ -14,4 +14,12 @@ This project is based on warehouse maintain and product maintain. This is not a 
 * Heroku used for database
 * React bootstrap and react hook
 * Toastify for popup and react form hook 
+
+## Technology Used
+* React
+* React Firebase hooks
+* React hook form
+* Firebase
+* React-Router
+* React-Toastify
 
